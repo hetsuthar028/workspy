@@ -1,0 +1,32 @@
+ * {
+     box-sizing: border-box;
+     font-family: 'Courier New', monospace;
+ }
+
+.todoCard {
+    width: 10rem;
+    margin: 20px;
+    /* border: 1px solid grey; */
+    box-shadow: 2px 2px 5px #aaaaaa;
+    border-radius: 10px;
+}
+
+.dot {
+    height: 15px;
+  width: 15px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+.todoDate {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.todoHeader {
+    font-weight: lighter;
+    text-align: center;
+}
